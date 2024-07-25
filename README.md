@@ -1,6 +1,6 @@
 # Flexible Production Simulation (FliPSi)
 
-This is a simulation, created in Unity, aimed at data generation for machine learning applications in the domain of production systems. It is currently in an unstable alpha state and changes are likely to be made. The goal of the project is to create a tool for the gneeration of example data for machine learning, and explicitly not the realistic simulation of existing production systems, meaning it is not suitable as a digital twin.  
+This is a simulation, created in Unity, aimed at data generation for machine learning applications in the domain of production systems. It is currently in an unstable alpha state and changes are likely to be made. The goal of the project is to create a tool for the generation of example data, and explicitly not the realistic simulation of existing production systems, meaning it is not suitable as a digital twin.  
 
 ## The Simulation
 The simulation runs on Unity 2020.3.26.f1. 
