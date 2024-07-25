@@ -17,4 +17,4 @@ A. Liebert et al., "Using FliPSi to Generate Data for Machine Learning Algorithm
 
 Add the project in UnityHub. If necessary, install the required Unity version. Once the project is loaded, open the scene under: Assets/Scenes/FliPSiScene . Loading the project for the first time takes longer as not all files are stored in git. The simluation can be started using the play button. It is also possible to use the simulation outside of Unity once the project was coompiled. Given the early development stage, access through Unity is still preferred. 
 
-A production system can be built using the on screen menu, during runtime. Data export can also be started using the menu system. Factories configurations can be stored and loaded. Example factories are provided in the top level folder (Sort_by_Color_A.xml etc.). 
+A production system can be built using the on screen menu, during runtime. Data export can also be started using the menu system. Factory configurations can be stored and loaded. Example factories are provided in the top level folder (Sort_by_Color_A.xml etc.). 
