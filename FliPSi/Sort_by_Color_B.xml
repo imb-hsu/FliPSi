@@ -1,0 +1,33 @@
+<FactorySimulator Name="C:\Users\richi\FactorySimulator 3.1.1\FactorySimulator 3.1\XXX2" Date="3/5/2023 7:43 PM">
+  <Camera Size="4" />
+  <Floor SizeX="1.8" SizeZ="0.9" />
+  <Object Name="Turnplate0" Tag="Turnplate">
+    <Position x="0.5" y="0.009" z="0" />
+    <Rotation w="-0.7071068" x="0" y="0.7071068" z="0" />
+  </Object>
+  <Object Name="Turnplate1" Tag="Turnplate">
+    <Position x="0.5" y="0.009" z="1.8" />
+    <Rotation w="0" x="0" y="1" z="0" />
+  </Object>
+  <Object Name="Conveyor9" Tag="Conveyor">
+    <Position x="0.5" y="0.009" z="0.9000001" />
+    <Rotation w="0" x="0" y="1" z="0" />
+    <Configuration targetVelocity="502.2726" force="501.0467" freeSpin="False" />
+  </Object>
+  <Object Name="InputModule0" Tag="InputModule">
+    <Position x="-6.999996" y="0.009" z="0" />
+    <Rotation w="-0.7071068" x="0" y="0.7071068" z="0" />
+  </Object>
+  <Object Name="OutputModule0" Tag="OutputModule">
+    <Position x="0.5" y="0.009" z="-1.8" />
+    <Rotation w="1" x="0" y="0" z="0" />
+  </Object>
+  <Object Name="OutputModule0" Tag="OutputModule">
+    <Position x="-1.4" y="0.009" z="1.8" />
+    <Rotation w="-0.7071068" x="0" y="-0.7071068" z="0" />
+  </Object>
+  <Object Name="PaintingModule0" Tag="PaintingModule">
+    <Position x="-2.7" y="0.009" z="0" />
+    <Rotation w="1" x="0" y="0" z="0" />
+  </Object>
+</FactorySimulator>

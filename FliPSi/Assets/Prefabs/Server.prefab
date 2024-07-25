@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6756322543062322133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6756322543062322130}
+  - component: {fileID: 6756322543062322131}
+  - component: {fileID: 6756322543062322132}
+  m_Layer: 0
+  m_Name: Server
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6756322543062322130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6756322543062322133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 818.9824, y: 353.8125, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6756322543062322131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6756322543062322133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 862074669973ef14cad49971a48fe4f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CNC: {fileID: 0}
+  Turntable: {fileID: 4511550166344949816, guid: a79c671c56de00649883d361c1d6bce7, type: 3}
+  Conveyor: {fileID: 1124802568098251249, guid: a05e5556c9dfa004daa60ea5debf7e0f, type: 3}
+  Conveyor_verticalMerge: {fileID: 0}
+  Conveyor_horizontalMerge: {fileID: 0}
+  Kuka: {fileID: 0}
+  Sensor: {fileID: 8212990509125439623, guid: 9c72f2b789384ae4d8f82123d815e049, type: 3}
+  Colorsensor: {fileID: 7470650938427786911, guid: 80c21f33442f039408078055d6fcef04, type: 3}
+  Input: {fileID: 327537504648707826, guid: a842fa1d020b5d74db68b24e05bbeff2, type: 3}
+  Output: {fileID: 7239959708485226610, guid: dc674d2752ee36f47b1ae1a7ae267f5d, type: 3}
+  Barrier: {fileID: 5159418752993714043, guid: 880eacacb0e16f144b5fb10ebcfd6da3, type: 3}
+  Painting: {fileID: 78770108270439874, guid: cec4ebdf7ba9f524eae1d88cdc9de10d, type: 3}
+  InputModule: {fileID: 8639119949316290387, guid: 3e1e63c02033b1643b8ebf956b61300d, type: 3}
+  SortingModule: {fileID: 6287349832304241867, guid: 9cde8b03f4e000b44b38eac19c859c63, type: 3}
+  MillingModule: {fileID: 4406211776195955885, guid: 27c54d1b08ef4b540aea092462d79af1, type: 3}
+  DrillingModule: {fileID: 5808687131510776642, guid: c4308ced448e3144fa57f18333bf9ac6, type: 3}
+  PaintingModule: {fileID: 3825134407525439761, guid: 81844abc85a4a6f49ad100b122c54b6c, type: 3}
+  OutputModule: {fileID: 5800529453410480525, guid: d78cf1cedef8ed54ea537ad4907870fa, type: 3}
+  StorageModule: {fileID: 0}
+  AssemblyModule: {fileID: 5808687131510776642, guid: 8a2329af66a42974394051d7a40fabd7, type: 3}
+--- !u!114 &6756322543062322132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6756322543062322133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fce6a8d4dda40d4484b16ffb8caff61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sender_filename: C:\Users\richi\FactorySimulator 3.1\UnityToCodesys
+  sender_IPAdress: 255.255.255.255
+  sender_Port: 1202
+  sender_ListID: 1
+  receiver_filename: C:\Users\richi\FactorySimulator 3.1\CodesysToUnity
+  receiver_IPAdress: 255.255.255.255
+  receiver_Port: 1203
+  receiver_ListID: 2

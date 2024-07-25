@@ -1,0 +1,7 @@
+The (free) Unity asset:
+
+https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
+
+Can be imported here. It creates prettier outlines for selected components. 
+
+Additionally, adjust the Selectable_UI/select_script.cs to make use of the asset.

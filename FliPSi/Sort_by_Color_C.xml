@@ -1,0 +1,51 @@
+<FactorySimulator Name="C:\Users\richi\FactorySimulator 3.1.1\FactorySimulator 3.1\XXX3" Date="3/7/2023 11:02 AM">
+  <Camera Size="4" />
+  <Floor SizeX="1.8" SizeZ="0.9" />
+  <Object Name="Turnplate0" Tag="Turnplate">
+    <Position x="0.5" y="0.009" z="0" />
+    <Rotation w="-0.7071068" x="0" y="0.7071068" z="0" />
+  </Object>
+  <Object Name="Turnplate1" Tag="Turnplate">
+    <Position x="0.5" y="0.009" z="1.8" />
+    <Rotation w="0" x="0" y="1" z="0" />
+  </Object>
+  <Object Name="Turnplate3" Tag="Turnplate">
+    <Position x="0.5" y="0.009" z="-2.799999" />
+    <Rotation w="1" x="0" y="0" z="0" />
+  </Object>
+  <Object Name="Conveyor9" Tag="Conveyor">
+    <Position x="0.5" y="0.009" z="0.9000001" />
+    <Rotation w="0" x="0" y="1" z="0" />
+    <Configuration targetVelocity="499.3025" force="501.7763" freeSpin="False" />
+  </Object>
+  <Object Name="Conveyor10" Tag="Conveyor">
+    <Position x="0.5" y="0.009" z="-0.9000001" />
+    <Rotation w="1" x="0" y="0" z="0" />
+    <Configuration targetVelocity="498.9643" force="501.3861" freeSpin="False" />
+  </Object>
+  <Object Name="Conveyor11" Tag="Conveyor">
+    <Position x="0.5" y="0.009" z="-1.9" />
+    <Rotation w="1" x="0" y="0" z="0" />
+    <Configuration targetVelocity="499.7288" force="501.3331" freeSpin="False" />
+  </Object>
+  <Object Name="InputModule0" Tag="InputModule">
+    <Position x="-6.999996" y="0.009" z="0" />
+    <Rotation w="-0.7071068" x="0" y="0.7071068" z="0" />
+  </Object>
+  <Object Name="OutputModule0" Tag="OutputModule">
+    <Position x="-1.4" y="0.009" z="1.8" />
+    <Rotation w="-0.7071068" x="0" y="-0.7071068" z="0" />
+  </Object>
+  <Object Name="OutputModule0" Tag="OutputModule">
+    <Position x="-6.899996" y="0.009" z="-2.799999" />
+    <Rotation w="0.7071068" x="0" y="0.7071068" z="0" />
+  </Object>
+  <Object Name="PaintingModule0" Tag="PaintingModule">
+    <Position x="-2.7" y="0.009" z="0" />
+    <Rotation w="1" x="0" y="0" z="0" />
+  </Object>
+  <Object Name="MillingModule0" Tag="MillingModule">
+    <Position x="-2.6" y="0.009" z="-2.799999" />
+    <Rotation w="0" x="0" y="-1" z="0" />
+  </Object>
+</FactorySimulator>
