@@ -10,6 +10,7 @@ The simulation runs on Unity 2020.3.26.f1.
 Currently, FliPSi has been featured in the following papers:
 
 M. Krantz, et al. "Flipsi: Generating data for the training of machine learning algorithms for cpps." Annual Conference of the PHM Society. Vol. 14. No. 1. 2022., doi: 10.36001/phmconf.2022.v14i1.3229 
+
 A. Liebert et al., "Using FliPSi to Generate Data for Machine Learning Algorithms," 2023 IEEE 28th International Conference on Emerging Technologies and Factory Automation (ETFA), Sinaia, Romania, 2023, pp. 1-8, doi: 10.1109/ETFA54631.2023.10275500.
 
 ## How to Start
